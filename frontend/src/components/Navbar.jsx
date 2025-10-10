@@ -11,10 +11,7 @@ import {
 
 const Navbar = () => {
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        console.log("Searching for:", searchTerm);
-    };
+
 
     return (
         <nav className="bg-gray-900 text-white px-6 py-3 flex items-center justify-between shadow-md">
